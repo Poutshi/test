@@ -1,15 +1,17 @@
 
+# Debug STM32 Nucleo Dev Boards using terminal
+
 ## Compile using Eclipse 
 ========================
 
--- --
-
 ## Flash and Debug using OpenOCD 
-================================
+
+
 Launch OpenOCD which opens a 
-	telnet tcp port number 444 
+*	telnet tcp port number 444 
+
 and a 
-	gdb tcp port number 3333
+*	gdb tcp port number 3333
 
 *Launching telnet is optional as all the OpenOcd command lines can be launched via gdb.*
 
